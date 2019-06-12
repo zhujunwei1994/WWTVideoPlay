@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/welcome_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="欢"
+            android:textSize="200dp"
+            android:textColor="#ff0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="迎"
+            android:textSize="200dp"
+            android:textColor="#ff0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="光"
+            android:textSize="200dp"
+            android:textColor="#ff0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="临"
+            android:textSize="200dp"
+            android:textColor="#ff0000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/video_area"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <VideoView
+
+            android:id="@+id/vv_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

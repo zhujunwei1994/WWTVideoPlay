@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="@drawable/set_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:focusedByDefault="true"
+            android:text="广告A"
+            style="@style/home_imagebutton_style"
+            android:background="@drawable/video_item_setting"
+            android:id="@+id/video_item_a"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="广告B"
+            style="@style/home_imagebutton_style"
+            android:background="@drawable/video_item_setting"
+            android:id="@+id/video_item_b"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="广告C"
+            style="@style/home_imagebutton_style"
+            android:background="@drawable/video_item_setting"
+            android:id="@+id/video_item_c"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+       />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/video_item_d"
+            style="@style/home_imagebutton_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/video_item_setting"
+            android:text="广告D" />
+        <Button
+            android:text="ABC循环"
+            style="@style/home_imagebutton_style"
+            android:background="@drawable/video_item_setting"
+            android:id="@+id/video_item_m"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="70dp"
+            android:textColor="#ffffff"
+           />
+    </LinearLayout>
+
+</LinearLayout>

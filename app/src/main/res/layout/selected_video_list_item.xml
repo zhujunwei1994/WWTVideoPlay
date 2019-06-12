@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/item_setting"
+    android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent">
+               <TextView
+                   android:id="@+id/seleceted_video_list_item_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:textSize="26dp"
+                   android:textColor="#ffffff"/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/selected_video_list_item_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="26dp"
+                    android:textColor="#ffffff"/>
+        </LinearLayout>
+</LinearLayout>
